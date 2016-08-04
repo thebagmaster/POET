@@ -1,0 +1,35 @@
+{
+  "name": "jquery-impromptu",
+  "license": "MIT",
+  "main": [
+    "dist/jquery-impromptu.css",
+    "dist/jquery-impromptu.js"
+  ],
+  "keywords": [
+    "impromptu",
+    "prompt",
+    "alert",
+    "modal",
+    "overlay",
+    "confirm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/trentrichardson/jQuery-Impromptu.git"
+  },
+  "dependencies": {
+    "jquery": ">=1.6"
+  },
+  "homepage": "https://github.com/trentrichardson/jQuery-Impromptu",
+  "version": "6.2.3",
+  "_release": "6.2.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v6.2.3",
+    "commit": "60cb14a6010682f20f943a6e0d8a18641e324c8c"
+  },
+  "_source": "https://github.com/trentrichardson/jQuery-Impromptu.git",
+  "_target": "^6.2.3",
+  "_originalSource": "jquery-impromptu",
+  "_direct": true
+}

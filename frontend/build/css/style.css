@@ -1,0 +1,107 @@
+.linerow {
+    background:#666;
+    color:white;
+    border-radius:3px;
+    font-family: Raleway;
+}
+
+#title {
+    text-align:center;
+    font-family: Raleway;
+}
+
+.body-container {
+    width:900px;
+    padding:100px;
+}
+
+.liquidFillGaugeText { font-family: Helvetica; font-weight: bold; }
+.menu-item>.btn {
+    position:absolute;
+    right:0px;
+    font-weight:900;
+}
+.oeemenu{
+    display:none;
+}
+.menu {
+    width:804px;
+    margin: 0px 0px 10px 0px;
+/*    border: 2px solid #178BCA;*/
+}
+.menu-item {
+    width:100px;
+    height:100px;
+    padding: 0px;
+    margin-right:20px;
+}
+.grid {
+    width:802px;
+}
+.grid-item {
+
+}
+.grid-item:hover {
+    border-color: hsla(0, 0%, 100%, 0.5);
+    cursor: move;
+}
+
+.packery-drop-placeholder {
+    outline: 3px dashed hsla(0, 0%, 0%, 0.5);
+    outline-offset: -6px;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+}
+
+.grid-item.is-dragging,
+.grid-item.is-positioning-post-drag {
+    background: #C90;
+    z-index: 2;
+}
+
+svg {
+    font: 10px sans-serif;
+}
+
+.axis {
+    shape-rendering: crispEdges;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke-width: .5px;
+}
+
+.x.axis path {
+    stroke: #000;
+}
+
+.x.axis line {
+    stroke: #fff;
+    stroke-opacity: .5;
+}
+
+.y.axis line {
+    stroke: #ddd;
+}
+
+path.line {
+    fill: none;
+    stroke: #000;
+    stroke-width: .5px;
+}
+
+rect.pane {
+    cursor: move;
+    fill: none;
+    pointer-events: all;
+}
+
+.sizetile {
+    border:1px solid grey;
+    height: 20px;
+    width: 20px;
+    margin: 2px;
+    padding: 0px;
+    cursor: pointer;
+}
